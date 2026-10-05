@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>yuultiez</title>
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+
+    body {
+      min-height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 24px;
+      font-family: Arial, Helvetica, sans-serif;
+      background:
+        radial-gradient(circle at 50% 0%, #252525 0%, #111 42%, #080808 100%);
+      color: #fff;
+    }
+
+    .card {
+      width: 100%;
+      max-width: 430px;
+      padding: 42px 26px 30px;
+      text-align: center;
+      border: 1px solid #2d2d2d;
+      border-radius: 24px;
+      background: rgba(16, 16, 16, 0.88);
+      box-shadow: 0 20px 70px rgba(0, 0, 0, 0.5);
+      backdrop-filter: blur(12px);
+    }
+
+    .name {
+      font-size: 38px;
+      font-weight: 800;
+      letter-spacing: 1px;
+      margin-bottom: 8px;
+    }
+
+    .subtitle {
+      color: #a5a5a5;
+      font-size: 14px;
+      margin-bottom: 30px;
+    }
+
+    .links {
+      display: flex;
+      flex-direction: column;
+      gap: 14px;
+    }
+
+    .button {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      min-height: 58px;
+      padding: 14px 20px;
+      border: 1px solid #333;
+      border-radius: 15px;
+      background: #1b1b1b;
+      color: #fff;
+      text-decoration: none;
+      font-size: 16px;
+      font-weight: 700;
+      transition: transform 0.18s ease, background 0.18s ease,
+                  border-color 0.18s ease, box-shadow 0.18s ease;
+    }
+
+    .button:hover {
+      transform: translateY(-3px);
+      background: #242424;
+      border-color: #555;
+      box-shadow: 0 10px 25px rgba(0, 0, 0, 0.3);
+    }
+
+    .button:active {
+      transform: translateY(0);
+    }
+
+    .footer {
+      margin-top: 30px;
+      color: #666;
+      font-size: 12px;
+    }
+
+    @media (max-width: 480px) {
+      .card {
+        padding: 36px 20px 26px;
+      }
+
+      .name {
+        font-size: 34px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <main class="card">
+    <h1 class="name">yuultiez</h1>
+    <p class="subtitle">Socials &amp; Support</p>
+
+    <nav class="links">
+      <a class="button"
+         href="https://tiktok.com/@yuultiezwashere"
+         target="_blank"
+         rel="noopener noreferrer">
+        tiktok
+      </a>
+
+      <a class="button"
+         href="https://www.instagram.com/yuultiez_was_here"
+         target="_blank"
+         rel="noopener noreferrer">
+        instagram
+      </a>
+
+      <a class="button"
+         href="https://trakteer.id/Yuultiez_/gift"
+         target="_blank"
+         rel="noopener noreferrer">
+        donet ke Yuultiez
+      </a>
+    </nav>
+
+    <p class="footer">© yuultiez</p>
+  </main>
+</body>
+</html>
